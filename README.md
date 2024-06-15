@@ -15,6 +15,8 @@
  ## `/Entrada_Saida`: contém os arquivos que controlam a entrada e saída dos dados.
    - `ES.h \ ES.c`: contém funções como as de criação dos arquivos de análise e dos resultados obtidos.
 
+ ## `/Resultados`: contém os arquivos com os resultados obtidos nos testes.
+
 ## Complexidade de tempo
 ### AVL
 | Operação | Caso Médio | Pior Caso |
