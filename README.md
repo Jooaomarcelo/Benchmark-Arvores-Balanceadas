@@ -20,12 +20,11 @@
 ## Complexidade de espaço
  Ambas as árvores possuem complexidade de espaço O(N)
 
-## Complexidade de rebalanceamento por rotação
- - AVl
-  Caso Médio: O(1)
-  Pior Caso: O(log(n))
+## Complexidade de rebalanceamento
+ ### AVl
+  * **Caso Médio**: O(1)
+  * **Pior Caso**: O(log(n))
 
- - ARB
-  Caso Médio: O(1)
-  Pior Caso: O(1)
-  * Contudo ela pode ter log(n) troca de cores.
+ ### ARB
+  * **Caso Médio**: O(1)
+  * **Pior Caso**: O(log(n)) * No caso de ela ter log(n) troca de cores.
