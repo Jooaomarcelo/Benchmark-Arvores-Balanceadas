@@ -7,6 +7,13 @@
  - RAM: 12 GB.
  - Sistema Operacional: Windows 11 Home.
 
+# Organização do Projeto
+ ## `/Arvores`: contém todos os arquivos referentes as estruturas de dados do projeto.
+   - `arvores.h \ arvores.c`: contém as funções que são semelhantes entre as árvores.
+   - `AVL.h \ AVL.c`: contém as funções referentes a AVL.
+   - `ARB.h \ ARB.c`: contém as funções referentes a Rubro-Negra.
+ ## `/Entrada_Saida`: contém os arquivos que controlam a entrada e saída dos dados.
+   - `ES.h \ ES.c`: contém funções como as de criação dos arquivos de análise e dos resultados obtidos.
 
 ## Complexidade de tempo
 ### AVL
