@@ -1,5 +1,12 @@
 # Benchmark-Arvores-Balanceadas
  Projeto de Benchmark para analisar o desempenho das árvores de pesquisa AVL e Rubro-Negra
+ com a inserção e remoção de 10.000 elementos ordenados, e a operação de pesquisa com 10.000 elementos aleatórios.
+ 
+ Os testes foram feitos em um computador com:
+ - Processador: 11th Gen Intel(R) Core(TM) i3-1115G4 @ 3.00GHz.
+ - RAM: 12 GB.
+ - Sistema Operacional: Windows 11 Home.
+
 
 ## Complexidade de tempo
 ### AVL
@@ -28,3 +35,13 @@
  ### ARB
   * **Caso Médio**: O(1)
   * **Pior Caso**: O(log(n)) * No caso de ela ter log(n) troca de cores.
+
+## Resultados
+| Árvore | Operação | Rotações | Tempo(ms) |
+| --------- | --------- | ----------- | --------- |
+| AVL | **Inserção** | 9986 | 3,136 |
+| AVL | **Pesquisa** | ---- | 2.506 |
+| AVL | **Remoção** | 4988 | 1.644 |
+| ARB | **Inserção** | 9976 | 2.534 |
+| ARB | **Pesquisa** | ---- | 2.606 |
+| ARB | **Remoção** | 4989 | 1.294 |
