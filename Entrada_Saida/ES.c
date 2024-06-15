@@ -101,14 +101,14 @@ int realizarTeste(arvore *arv, char *nomeArquivo, int tipoArvore, int operacao, 
         return 1;
     }
     if(controle == 0) {
-        printf("Erro na inserção.\n");
-        return 1;
+        printf("Erro na operação.\n");
+        return 2;
     }
 
     tempo = calcularTempo(inicio, fim);
     if(!criaArquivoResultados(operacao, resultados, *rotacoes, tempo)) {
         printf("Erro ao criar arquivo.");
-        return 1;
+        return 3;
     }
     return 0;
 }

@@ -17,7 +17,7 @@ int AVL_removeNo(arvore *arv, int valor, int *rotacoes);
 //Função que verifica o desbalanceamento na inserção
 void atualizaFB_insercao(arvore *arv, no *novoNo, int *rotacoes);
 
-//Função que faz o balanceamento após inseção
+//Função que faz o balanceamento após inseção ou remoção
 int balanceamento(arvore *arv, no *noDesbal);
 
 //Função que verifica o desbalanceamento na remoção
